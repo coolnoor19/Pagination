@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 13%, rgba(9,9,121,1) 39%, rgba(0,189,255,1) 83%);
+}
+
+.post-container {
+  margin:auto;
+  width: 880px;
+  
+  height: 170px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  height: 150px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.pagination-container {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page-btn {
+  
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.active {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.page-btn:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
